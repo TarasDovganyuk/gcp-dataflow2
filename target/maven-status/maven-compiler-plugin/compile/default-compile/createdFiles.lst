@@ -1,0 +1,7 @@
+com\epam\function\DataPrepContextFn.class
+com\epam\DataPrep.class
+com\epam\function\ConvertCsvToAvro.class
+com\epam\function\ParseCsvFn.class
+com\epam\entity\DataPrepContext.class
+com\epam\entity\Csv.class
+com\epam\common\DataPrepOptions.class
