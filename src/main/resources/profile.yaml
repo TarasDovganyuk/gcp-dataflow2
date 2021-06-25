@@ -7,6 +7,12 @@ layouts:
     accountId: string
     description: string
     balance: long
+  USER_AND_BALANCE:
+    name: string
+    age: long
+    accountId: string
+    description: string
+    balance: long
 actions:
   - type: validate
     recordType: USER

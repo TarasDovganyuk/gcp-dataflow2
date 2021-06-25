@@ -11,6 +11,12 @@ public interface DataPrepOptions extends PipelineOptions {
     @Default.String("src/main/resources/input.csv")
     String getInputFiles();
 
+    @Description("Path of the profile")
+    @Default.String("src/main/resources/profile.yaml")
+    String getProfile();
+
+    void setProfile(String value);
+
     void setInputFiles(String value);
 
     @Description("Path of the file to write to")

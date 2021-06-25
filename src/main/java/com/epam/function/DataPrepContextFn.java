@@ -24,7 +24,7 @@ public class DataPrepContextFn extends DoFn<String, DataPrepContextFn> {
     @ProcessElement
     public void procesElement(@Element String element, OutputReceiver<DataPrepContextFn> receiver) {
         log.info(String.format("Element: %s", element));
-        DataPrepContext dataPrepContext = new DataPrepContext();
+//        DataPrepContext dataPrepContext = new DataPrepContext();
         String[] words = element.split(",");
         String yamlJson = convertToJson(element);
         log.info(String.format("Yaml Json: %s", yamlJson));
